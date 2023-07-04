@@ -1,10 +1,13 @@
 import './App.css'
+import Banner from './componentes/Banner'
+import Topo from './componentes/Topo'
 
 function App() {
 
   return (
-    <div>
-
+    <div className='App'>
+    <Topo/>
+    <Banner/>
     </div>
   )
 }
