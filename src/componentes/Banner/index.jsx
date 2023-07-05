@@ -3,13 +3,13 @@ import './style.css'
 
 export default function Banner() {
     return(
-        <section>
+        <section className="banner">
 
-            <div>
-                <img src="./img/banner.png" alt="Banner"/>
+            <div className="container-img">
+                <img className="img-banner"/>
             </div>
 
-            <div>
+            <div className="texto-banner">
                 <p>Branding / UI / UX / Tecnologia</p>
                 <h1>Agência de Branding <strong>e design digital</strong></h1>
             </div>

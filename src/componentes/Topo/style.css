@@ -1,0 +1,31 @@
+.topo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding: 10px 30px;
+    background-color: #fff;
+}
+
+.logo{
+    width: auto;
+    height: 30px;
+}
+
+.botao{
+    border-radius: 100px;
+    border-color:#747272 ;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.botao img{
+    width: auto;
+    height: 20px;
+}

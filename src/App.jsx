@@ -1,6 +1,9 @@
 import './App.css'
 import Banner from './componentes/Banner'
+import Rodape from './componentes/Rodape'
 import Topo from './componentes/Topo'
+import ExperienciasDeTrabalho from './componentes/ExperienciasDeTrabalho'
+import Card from './componentes/Card'
 
 function App() {
 
@@ -8,6 +11,9 @@ function App() {
     <div className='App'>
     <Topo/>
     <Banner/>
+    <ExperienciasDeTrabalho/>
+    <Card/>
+    <Rodape/>
     </div>
   )
 }

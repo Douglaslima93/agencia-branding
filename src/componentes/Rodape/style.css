@@ -1,0 +1,32 @@
+.container-rodape {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 100px;
+    gap: 20px;
+    color: #fff;
+    font-family: 'Poppins';
+}
+
+.container-rodape p{
+    color: #8a8fa3;
+    text-align: center;
+    width: 50%;
+}
+
+.icones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.icones img{
+    width: auto;
+    height: 45px;
+}
+
+.container-rodape span{
+    color: #feb633;
+}
+
