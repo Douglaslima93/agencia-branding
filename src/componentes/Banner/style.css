@@ -45,3 +45,23 @@
 .texto-banner strong{
     font-weight: 800;
 }
+
+@media screen and (max-width:350px) {
+    .container-img{
+        width: 0;
+    }
+
+    .texto-banner{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container-img{
+        width: 0;
+    }
+
+    .texto-banner{
+        width: 80%;
+    }
+}

@@ -32,3 +32,19 @@
 .card span{
     
 }
+
+@media screen and (max-width:350px) {
+    .container-card{
+        padding: 50px 20px;
+    }
+
+    .card{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .card{
+        width: 100%;
+    }
+}
