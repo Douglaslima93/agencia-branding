@@ -9,6 +9,10 @@
     background-color: #fff;
 }
 
+.topo-dark{
+    background-color: #252525;
+}
+
 .logo{
     width: auto;
     height: 30px;
@@ -23,6 +27,12 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    background-color: #fff;
+}
+
+.botao-dark{
+    background-color: #252525;
+    border-color: #fff;
 }
 
 .botao img{

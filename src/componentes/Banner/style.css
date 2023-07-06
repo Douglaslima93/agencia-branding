@@ -16,7 +16,7 @@
     background-image: url('../../../img/banner.png');
     background-position: center;
     background-size: cover;
-    border: none;
+    object-fit: cover;
     width: 100%;
     height: 100vh;
 }

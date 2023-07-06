@@ -12,26 +12,22 @@
     margin: 0 auto;
     padding: 5px;
     background-color: transparent;
-    border: 5px solid transparent;
+    border: 5px solid #edecec;
 }
 
 .card:hover{
     background-color: #feb633;
     cursor: pointer;
-    border: 5px solid #edecec;
 }
 
-.card h3 {
+.sub-titulo-card {
     color: #32333c;
 }
 
-.card p, .card span{
+.paragrafo-card, .span-card{
     color: #8a8fa3;
 }
 
-.card span{
-    
-}
 
 @media screen and (max-width:350px) {
     .container-card{

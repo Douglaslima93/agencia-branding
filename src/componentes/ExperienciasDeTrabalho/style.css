@@ -17,7 +17,15 @@
 }
 
 .texto-experiencias h2::before{
-
+    position: absolute;
+    content: "";
+    bottom: -140px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100px;
+    height: 4px;
+    background-color: #feb633;
 }
 
 .texto-experiencias p {
