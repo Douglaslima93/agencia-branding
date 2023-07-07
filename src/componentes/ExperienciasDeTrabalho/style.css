@@ -1,5 +1,10 @@
+.container-experiencias{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 .texto-experiencias{
-    background-color: #f6f8fc;
     font-family: 'Poppins';
     display: flex;
     flex-direction: column;
@@ -9,34 +14,70 @@
     padding: 20px 150px;
 }
 
+#container-experiencias-escuro{
+    background-color: #393838;
+}
+
+#container-experiencias-claro{
+    background-color: #f6f8fc;
+}
+
 .texto-experiencias h2{
-    color: #32333c;
     font-size: 30px;
     font-weight: 800;
     text-align: center;
 }
 
+#sub-titulo-escuro{
+    color: #cccccc;
+}
+
+#sub-titulo-claro{
+    color: #32333c;
+}
+
 .texto-experiencias h2::before{
-    position: absolute;
+    position:absolute;
     content: "";
-    bottom: -140px;
+    bottom: auto;
     left: 0;
     right: 0;
-    margin: 0 auto;
+    margin: 40px auto;
     width: 100px;
     height: 4px;
     background-color: #feb633;
 }
 
 .texto-experiencias p {
-    color: #8a8fa3;
     font-size: 18px;
     text-align: center;
+}
+
+#paragrafo-escuro{
+    color: #cccccc;
+}
+
+#paragrafo-claro{
+    color: #8a8fa3;
 }
 
 @media screen and (max-width:350px) {
     .texto-experiencias{
         padding: 20px 20px;
     }
+
+    .texto-experiencias h2::before{
+        margin: 90px auto;
+    }
 }
+
+@media screen and (max-width:690px) {
+    
+
+    .texto-experiencias h2::before{
+        margin: 90px auto;
+    }
+}
+
+
 

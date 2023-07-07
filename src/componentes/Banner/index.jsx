@@ -1,13 +1,11 @@
 import React from "react";
 import './style.css'
 
-export default function Banner() {
+export default function Banner(props) {
     return(
         <section className="banner">
 
-            <div className="container-img">
-                <img className="img-banner"/>
-            </div>
+            <div id={props.AlterarTema? 'img-banner-escuro' : 'img-banner-claro'} className="img-banner"></div>
 
             <div className="texto-banner">
                 <p>Branding / UI / UX / Tecnologia</p>

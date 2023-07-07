@@ -1,17 +1,20 @@
 .container-card{
-    background-color: #f6f8fc;
     font-family: 'Poppins';
     display: flex;
     flex-wrap: wrap;
-    padding: 50px 100px;
+    margin: 0 auto;
+    gap: 20px;
+    padding: 30px 20px;
 }
 
 .card{
-    width: 30%;
     height: auto;
     margin: 0 auto;
     padding: 5px;
-    background-color: transparent;
+    width: 300px;
+}
+
+#card-claro{
     border: 5px solid #edecec;
 }
 
@@ -20,20 +23,29 @@
     cursor: pointer;
 }
 
-.sub-titulo-card {
+#card-claro h3 {
     color: #32333c;
 }
 
-.paragrafo-card, .span-card{
+#card-claro p, #card-claro span{
     color: #8a8fa3;
 }
 
+#card-escuro{
+    border: 5px solid #ffffff0d;
+}
+
+#card-escuro h3 {
+    color: #ffffff;
+}
+
+#card-escuro p, #card-escuro span{
+    color: #9f9f9f;
+}
+
+
 
 @media screen and (max-width:350px) {
-    .container-card{
-        padding: 50px 20px;
-    }
-
     .card{
         width: 100%;
     }

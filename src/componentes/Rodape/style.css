@@ -4,14 +4,21 @@
     align-items: center;
     padding: 50px 100px;
     gap: 20px;
-    color: #fff;
     font-family: 'Poppins';
 }
 
 .container-rodape p{
-    color: #8a8fa3;
     text-align: center;
     width: 50%;
+}
+
+#container-rodape-claro{
+    background-color: #fff;
+    color: #fff;
+}
+
+#container-rodape-claro p{
+    color: #8a8fa3;
 }
 
 .icones{
@@ -28,6 +35,14 @@
 
 .container-rodape span{
     color: #feb633;
+}
+
+#container-rodape-escuro{
+    background-color: #252525;
+}
+
+#autor-escuro{
+    border: 5px solid #ffffff0d;
 }
 
 @media screen and (max-width: 350px) {

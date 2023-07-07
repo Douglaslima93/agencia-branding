@@ -6,10 +6,13 @@
     width: 100%;
     height: auto;
     padding: 10px 30px;
+    
+}
+#topo-claro{
     background-color: #fff;
 }
 
-.topo-dark{
+#topo-escuro{
     background-color: #252525;
 }
 
@@ -20,19 +23,23 @@
 
 .botao{
     border-radius: 100px;
-    border-color:#747272 ;
     width: 40px;
     height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    background-color: #fff;
+    
 }
 
-.botao-dark{
+#botao-escuro{
     background-color: #252525;
     border-color: #fff;
+}
+
+#botao-claro{
+    background-color: #fff;
+    border-color:#747272 ;
 }
 
 .botao img{

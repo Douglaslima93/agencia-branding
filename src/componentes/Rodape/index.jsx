@@ -1,9 +1,9 @@
 import React from "react";
 import './style.css'
 
-export default function Rodape() {
+export default function Rodape(props) {
     return(
-        <footer className="container-rodape">
+        <footer id={props.AlterarTema? 'container-rodape-escuro' : 'container-rodape-claro'} className="container-rodape">
             <img src="./img/logo.png" alt="Logo"/>
 
             <p>Ajudamos a criar uma personalidade digital construindo sua marca no ambiente online utilizando 
@@ -19,7 +19,7 @@ export default function Rodape() {
                 <a href=""><img src="./img/google-plus.png" alt="google-plus"/></a>
             </div>
 
-            <p>Copyright 2023 &copy; <span>Douglas Lima</span></p>
+            <p id="autor-escuro">Copyright 2023 &copy; <span>Douglas Lima</span></p>
         </footer>
     )
 }
