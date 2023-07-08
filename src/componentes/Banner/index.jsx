@@ -9,7 +9,7 @@ export default function Banner(props) {
 
             <div className="texto-banner">
                 <p>Branding / UI / UX / Tecnologia</p>
-                <h1>Agência de Branding <strong>e design digital</strong></h1>
+                <h1>Agência de Branding <strong>e Design digital</strong></h1>
             </div>
         </section>
     )
