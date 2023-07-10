@@ -63,7 +63,7 @@
 
 @media screen and (max-width:350px) {
     .texto-experiencias{
-        padding: 20px 20px;
+        padding: 20px 10px;
     }
 
     .texto-experiencias h2::before{
