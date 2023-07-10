@@ -6,7 +6,7 @@
     width: 100%;
     height: auto;
     padding: 10px 30px;
-    
+    position: fixed;
 }
 #topo-claro{
     background-color: #fff;
